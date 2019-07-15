@@ -10,8 +10,6 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: export BROWSERSTACK_USERNAME=your_username
-- script: export BROWSERSTACK_ACCESS_KEY=your_access_key
 - script: echo Hello, world!
 - script: npm install
 - script: npm run single
